@@ -41,8 +41,7 @@ void displayPlayers(const vector<Player>& team) {
         << "Позиція"
         << "Голи"
         << "Матчі"
-        << "Рейтинг\n";
-    cout << string(70, '-') << "\n";
+        << "Рейтинг";
 
     for (const auto& player : team) {
         cout << player.name
